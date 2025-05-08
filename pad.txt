@@ -1,0 +1,16 @@
+START
+
+Create a React landing page
+
+Inside landing page:
+    -Render NavBar component
+        -include logo and hamburger menu
+    
+    -Render Hero Section
+        -Headlines
+        -brief description
+        -CTA button
+        -banner Image
+    
+    -Render Right-to-left directed banner animation 
+        -include multiple unique brands
