@@ -22,7 +22,7 @@ const Hero = () => {
       mobile-W
       ">
         <div className="heading text-6xl font-extrabold leading-[70px]">
-        Your AI-Powered Design Assistant
+        Your AI-Powered <span className='text-[#8b49e9]'>Design</span> Assistant
         </div>
         <div className="para pt-3 max-w-[500px]">
         Unlock your creative potential. Seamlessly generate, customize, and perfect your designs with cutting-edge AI technology.
@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="image
       contain
       w-[650px]
-      mx-165 mt-13
+      mx-160 mt-16
       absolute 
       ">
         <img src='/img_1.avif' className='' alt="banner"/>
