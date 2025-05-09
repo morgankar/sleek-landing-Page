@@ -1,2 +1,16 @@
 @import "tailwindcss";
 
+/* purple: #8f4ded */
+/* dark purple: #8b49e9 */
+body{
+  background-color: #121314;
+  color: white;
+}
+
+.noise-bg{
+  background-image: url('/public/noisy-background.jpg');
+  background-size: 500px;
+  background-repeat: repeat;
+  opacity: .1;
+  pointer-events: none;
+}

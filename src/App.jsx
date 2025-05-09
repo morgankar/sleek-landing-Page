@@ -6,8 +6,9 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <h1 className='text-3xl'>Morgan Kar</h1>
       <Hero/>
+
+     
     </>
   )
 }
