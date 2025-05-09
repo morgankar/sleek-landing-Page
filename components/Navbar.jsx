@@ -10,9 +10,9 @@ const Navbar = () => {
       mx-auto flex flex-row justify-between 
       px-8 mt-9 mb-4 
       items-center
-      max-w-[1300px]">
+      max-w-[1260px]">
         <div className="logo flex items-center">
-        <img src="./public/logo.avif" alt="Site Logo" className='w-15'/>
+        <img src="./public/logo.avif" alt="Site Logo" className='w-13'/>
         <h1 className='text-3xl font-bold '>HelixAI</h1>
         </div>
        

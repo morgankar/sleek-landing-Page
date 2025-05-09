@@ -8,9 +8,40 @@ body{
 }
 
 .noise-bg{
-  background-image: url('/public/noisy-background.jpg');
-  background-size: 500px;
+  background-image: url('/public/noisyBlack.png');
+  background-size: 100px;
   background-repeat: repeat;
-  opacity: .1;
+  opacity: 1;
   pointer-events: none;
 }
+
+@media (max-width: 600px) { 
+  .mobile-W{
+    margin: 5px;
+
+    display: block;
+    
+  }
+  .heading{
+    margin-top: 20px;
+    font-size: 40px;
+    max-width: 90vw;
+    line-height: 45px;
+  }
+  .para{
+    max-width: 80vw;
+    font-weight: 400;
+
+  }
+  .box{
+    
+    padding: 10px;
+    overflow: visible;
+    
+  }
+  .image{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } }
