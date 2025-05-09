@@ -34,8 +34,8 @@ const Hero = () => {
       </div>
       <div className="image
       contain
-      w-[650px]
-      mx-160 mt-16
+      w-[610px]
+      mx-160 mt-10
       absolute 
       ">
         <img src='/img_1.avif' className='' alt="banner"/>
