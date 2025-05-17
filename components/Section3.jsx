@@ -51,7 +51,7 @@ const Section3 = () => {
                 </div>
                 <div className="rounded-2xl w-[468px] h-[324px] noise-bg overflow-hidden relative ">
                 <div className="blck flex justify-between">
-                    <h6 className='text-sm ml-5 mt-5 w-105 leading-5 font-medium'>Embrace the elegance of meticulously crafted designs. Our AI polishes every detail to bring a timeless quality to your creative projects.</h6>
+                    <h6 className='text-sm ml-5 mt-5 w-90 leading-5 font-medium'>Embrace the elegance of meticulously crafted designs. Our AI polishes every detail to bring a timeless quality to your creative projects.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
                        <svg className='pl-2 mt-1.5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="currentColor"><path d="M4.22173 18.3642L5.63574 19.7784L15.2427 10.1716L19.071 14L19.071 4.92892L9.99999 4.92893L13.8284 8.75738L4.22173 18.3642Z"></path></svg>
                     </div>
