@@ -10,7 +10,7 @@ const Section4 = () => {
             <h1 className='w-[450px] mt-3'>NajmAI offers seamless integration with a variety of popular design and project management tools, ensuring a smooth and efficient workflow.</h1>
         </div>
         <div className="marquee  w-[50vw] h-[450px] mx-auto">
-
+         
         </div>
      </div>
   )
