@@ -11,13 +11,18 @@ const Section3 = () => {
             {/* Row1 */}
             <div className="flex">
                 <div className=" rounded-2xl w-[468px] h-[324px] noise-bg overflow-hidden relative ">
-                    <h6 className='text-2xs absolute '>Dive into the world of AI where design possibilities are limitless. Let the cutting-edge technology transform your concepts into breathtaking visuals.</h6>
+                  <div className="blck flex justify-around">
+                    <h6 className='text-sm ml-5 mt-5 w-90 leading-5 font-medium'>Dive into the world of AI where design possibilities are limitless. Let the cutting-edge technology transform your concepts into breathtaking visuals.</h6>
+                    <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
+                    <svg className='pl-2 mt-1.5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="currentColor"><path d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM14 9V15H10V9H5L12 2L19 9H14Z"></path></svg>
+                  </div>
+
+                  </div>
+                  <h1 className='text-4xl absolute bottom-5 left-4 font-bold'>Witness The Future</h1>
+                   
                 </div>
-                <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 absolute">
-                <svg className='m-auto ml-0.5 p-2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27" fill="currentColor"><path d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM14 9V15H10V9H5L12 2L19 9H14Z"></path></svg>
-              </div>
-              
-                <div className=" rounded-2xl w-[712px] h-[324px] noise-bg overflow-hidden  ml-4"></div>
+               
+                <div className=" rounded-2xl w-[712px] h-[324px] noise-bg overflow-hidden  ml-4 relative"></div>
             </div>
            
              {/* Row2 */}
