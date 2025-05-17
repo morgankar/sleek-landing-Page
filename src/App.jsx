@@ -6,6 +6,7 @@ import Section1 from '../components/Section1'
 import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Plan from '../components/Plan'
+import Section4 from '../components/Section4'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Section2/>
       <Section3/>
       <Plan/>
+      <Section4/>
      
     </>
   )
