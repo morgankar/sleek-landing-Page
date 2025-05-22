@@ -4,41 +4,42 @@ const Hero = () => {
   return (
 
     <div className="box 
-     w-[90vw] h-[58vh] 
+     w-[90vw] sm:h-[58vh] 
+     h-[80vh]
      max-w-[1200px]
-     m-auto rounded-4xl mt-18
+     m-auto rounded-4xl sm:mt-18 mt-15
      noise-bg
-     overflow-hidden
      flex
      relative
+     overflow-hidden
+     
      ">
-      <div className="textBlock ml-4
-      w-[50vw] 
-      mt-4
-      p-5 pt-35
-      max-w-[600px]
-      min-w-[600px]
+      <div className="textBlock 
+      w-[90vw] ml-2 mt-5
+      sm:mt-4 sm:ml-4
+      sm:p-5 sm:pt-35
+      sm:max-w-[600px]
+      sm:min-w-[600px]
       flex flex-col
-      mobile-W
+      
       ">
-        <div className="heading text-6xl font-extrabold leading-[70px]">
+        <div className="heading sm:text-6xl sm:font-extrabold leading-[70px] text-2xl font-bold">
         Your AI-Powered <span className='text-[#8b49e9]'>Design</span> Assistant
         </div>
-        <div className="para pt-3 max-w-[500px]">
+        <div className="para pt-3 max-w-[500px] mt-2 text-gray-300">
         Unlock your creative potential. Seamlessly generate, customize, and perfect your designs with cutting-edge AI technology.
         </div>
-        <div className="cta mt-6 text-sm font-bold">
+        <div className="cta  text-sm font-bold flex sm:flex-row flex-col m-auto sm:m-0 sm:mt-6 mt-7 ml-0">
           <button className='bg-[#8f4ded] p-4 rounded-[10px]'>Remix Template</button>
-          <button className='p-4 rounded-[10px] font-regular'>More Templates</button>
+          <button className='sm:p-4 rounded-[10px] font-semibold p-4 text-gray-300'>More Templates</button>
         </div>
       </div>
-      <div className="image
-      contain
-      w-[610px]
-      mx-160 mt-10
+      <div className="
+      sm:w-[610px]
+      sm:mx-160 sm:mt-10
       absolute 
-      ">
-        <img src='/img_1.avif' className='' alt="banner"/>
+      mx-10 w-[600px] mt-90">
+        <img src='/img_1.avif' className='w-[350px] sm:w-auto h-auto object-contain' alt="banner"/>
         
       </div>
     </div>
