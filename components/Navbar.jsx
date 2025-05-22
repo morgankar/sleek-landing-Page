@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar 
       top-8 z-[20] 
       mx-auto flex flex-row justify-between 
-      px-8 mt-9 mb-4 
+      px-8 mt-8 sm:mt-9 mb-4 
       items-center
       max-w-[1260px]">
         <div className="logo flex items-center">
@@ -15,7 +15,7 @@ const Navbar = () => {
         <h1 className='text-2xl font-bold '>HelixAI</h1>
         </div>
         <div className="rightNav flex gap-5 items-center">
-          <h1 className='font-semibold'>More Designs</h1>
+          <h1 className='font-semibold opacity-0 sm:opacity-100'>More Designs</h1>
           <button className='hamburg noise-bg 
           px-5 rounded-xl py-2 w-auto
           font-semibold'>
