@@ -15,7 +15,6 @@ const Reviews = () => {
          </div>
          <h1 className='ml-7 max-w-[500px] '>Using this AI-powered design assistant has completetly transformed the way i approach my projects. It's like having a professional designer on call 24/7. Highly recommend it!</h1>
       </div>
-
       
     </div>
   </>

@@ -5,11 +5,11 @@ const Section1 = () => {
     <div className='section w-[90vw] h-auto max-w-[1200px] m-auto mt-30 mb-40'>
         <div className="textblock2 ">
             <h1 className='heading text-5xl font-bold leading-[70px] relative'>Unleash Your <span className='text-[#8b49e9]'>Creativity</span></h1>
-            <h2 className='absolute max-w-[35vw]'>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>
+            <h2 className='max-w-[35vw]  sm:max-w-[80vw] '>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>
         </div>
 
 
-        <div className="sectionCards flex flex-row gap-7 mt-10">
+        <div className="sectionCards flex flex-row gap-7 mt-10 sm:flex-col">
 
           <div className="secCard card1  min-w-[387px] min-h-[239px] max-w-[387px] max-h-[239px] relative
              m-auto rounded-2xl mt-18 noise-bg overflow-hidden">
