@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <div className='section w-[90vw] h-auto max-w-[1200px] m-auto mt-20 mb-40'>
+    <div className='section w-[90vw] h-auto max-w-[1200px] m-auto mt-20 mb-26'>
         <div className="textblock2 ">
             <h1 className='heading text-5xl font-bold leading-[70px] relative'>Unleash Your  <span className='text-[#8b49e9]'>Creativity</span></h1>
             <h2 className='sm:max-w-[35vw]  max-w-[80vw] mt-5'>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>

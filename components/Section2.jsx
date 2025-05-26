@@ -3,15 +3,15 @@ import React from 'react'
 const Section2 = () => {
   return (
     <>
-        <div className="container max-w-[1200px] max-h[471px] m-auto flex justify-between items-center  mb-20">
-            <div className="textbox"> 
-                <h2 className='text-5xl font-bold w-100'>High-Resolution Outputs</h2>
-                <h2 className='w-[500px] mt-3'>Download any final designs in high-resolution formats suitable for print and digital use. Ensure your work looks professional and polished in any medium</h2>
-                <div className="cta mt-6 text-sm font-bold ">
+        <div className="container sm:max-w-[1200px] sm:max-h[471px] m-auto flex sm:justify-between sm:items-center sm:mb-20 w-[90vw] flex-col-reverse sm:flex-col">
+            <div className="textbox mt-14"> 
+                <h2 className='sm:text-5xl  font-bold sm:w-100 w-[90vw] text-2xl text-center'>High-Resolution Outputs</h2>
+                <h2 className='sm:w-[500px] mt-3 w-[90vw] text-center text-2xs'>Download any final designs in high-resolution formats suitable for print and digital use. Ensure your work looks professional and polished in any medium.</h2>
+                <div className="cta mt-6 text-sm font-bold text-center sm:text-left">
                     <button className='bg-[#8f4ded] p-3 rounded-[10px]'>Remix Template</button>
                 </div>
             </div>
-            <img className="max-w-[380px] min-h-[471px] object-cover rounded-3xl" src="/img_2.avif" alt="Image"/>
+            <img className="sm:max-w-[380px] sm:min-h-[471px] max-w-[65vw] m-auto sm:m-0 object-cover rounded-3xl" src="/img_2.avif" alt="Image"/>
         </div>
 
 
