@@ -37,7 +37,7 @@ const Section2 = () => {
                 </div>
             </div>
             <img className="sm:max-w-[380px] sm:min-h-[471px] max-w-[65vw] m-auto sm:m-0 object-cover rounded-3xl" src="/img_4.avif" alt="Image"/>
-            
+        
         </div>
     </>
     
