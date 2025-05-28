@@ -2,18 +2,18 @@ import React from 'react'
 
 const Plan = () => {
   return (
-    <div className="container w-[90vw] max-w-[1200px] m-auto h-[100vh]">
+    <div className="container w-[90vw] sm:max-w-[1200px] m-auto sm:h-[100vh]">
         <div className="header mt-30">
-            <h1 className='text-5xl font-bold leading-[50px] max-w-[32vw] relative'>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
-            <h1 className='absolute max-w-[36vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
+            <h1 className='sm:text-5xl sm:font-bold font-medium  leading-[50px] sm:max-w-[32vw] text-5xl w-[90vw] relative'>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
+            <h1 className='absolute sm:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </div>
-        <div className="btns flex justify-center mt-[120px]">
+        <div className="btns flex justify-center mt-[180px] sm:mt-[120px]">
             <button className=' bg-violet-500 p-1 rounded-3xl'>Toggle</button>
         </div>
 
-        <div className="cards flex gap-4 mt-6">
+        <div className="cards flex sm:flex-row flex-col items-center gap-4 mt-6 ">
             {/* card1 */}
-            <div className=" rounded-2xl w-[387px] h-[520px] noise-bg overflow-hidden relative ">
+            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[80vw] m-auto ">
                 <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>FREE</h1>
                     <h1 className='text-4xl font-bold mt-3'>$0/m</h1>
@@ -32,12 +32,12 @@ const Plan = () => {
                 </div>
             </div>
             {/* card2 */}
-            <div className=" rounded-2xl w-[387px] h-[520px] bg-[#8b49e9] overflow-hidden relative ">
+            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] bg-[#8b49e9] overflow-hidden relative w-[80vw] m-auto">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>BASIC</h1>
                     <h1 className='text-4xl font-bold mt-3'>$14.99/m</h1>
                     <h1 className='text-gray-300 mt-1'>Billed Monthly</h1>
-                    <div className="w-[98%] h-px bg-gray-300 mt-6 mb-5 mx-auto"></div>
+                    <div className="bg-gray-300 mt-6 mb-5 mx-auto"></div>
 
                     <ul>
                         <li className='mb-3'><span>✔️</span> Advanced AI-generated designs</li>
@@ -54,7 +54,7 @@ const Plan = () => {
                 </div>
             </div>
             {/* card3 */}
-            <div className=" rounded-2xl w-[387px] h-[520px] noise-bg overflow-hidden relative ">
+            <div className=" rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[80vw] m-auto ">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>PRO</h1>
                     <h1 className='text-4xl font-bold mt-3'>$29.99/m</h1>
