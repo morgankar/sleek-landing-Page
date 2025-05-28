@@ -13,7 +13,7 @@ const Plan = () => {
 
         <div className="cards flex sm:flex-row flex-col items-center gap-4 mt-6 ">
             {/* card1 */}
-            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[80vw] m-auto ">
+            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto ">
                 <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>FREE</h1>
                     <h1 className='text-4xl font-bold mt-3'>$0/m</h1>
@@ -32,7 +32,7 @@ const Plan = () => {
                 </div>
             </div>
             {/* card2 */}
-            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] bg-[#8b49e9] overflow-hidden relative w-[80vw] m-auto">
+            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] bg-[#8b49e9] overflow-hidden relative w-[90vw] m-auto">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>BASIC</h1>
                     <h1 className='text-4xl font-bold mt-3'>$14.99/m</h1>
@@ -54,7 +54,7 @@ const Plan = () => {
                 </div>
             </div>
             {/* card3 */}
-            <div className=" rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[80vw] m-auto ">
+            <div className=" rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto ">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>PRO</h1>
                     <h1 className='text-4xl font-bold mt-3'>$29.99/m</h1>

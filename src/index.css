@@ -27,6 +27,15 @@ body{
   }
 }
 
+@keyframes scrollDown {
+  0% {
+    top: -200px;
+  }
+  100% {
+    top: 120%; 
+  }
+}
+
 .mask-fade-right {
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
@@ -55,6 +64,19 @@ body{
   animation-iteration-count: infinite;
 }
 
+.itemIcon{
+  width: 170px;
+  object-fit: cover;
+  position: absolute;
+  left: 250%;
+  top:40%;
+  animation-name: scrollDown;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
 .item1{
   animation-delay: calc(20s/5 * (5 - 1) * -1);
 } 
@@ -70,6 +92,8 @@ body{
 .item5{
   animation-delay: calc(20s / 5 * (5 - 5) * -1);
 }
+
+
 
 @media (max-width: 600px) { 
   .mobile-W{
