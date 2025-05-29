@@ -2,17 +2,17 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <div className='section w-[90vw] h-auto max-w-[1200px] m-auto mt-20 mb-26'>
+    <div className='section w-[90vw] h-auto sm:max-w-[1200px] m-auto mt-40 mb-26'>
         <div className="textblock2 ">
             <h1 className='heading text-5xl font-bold leading-[70px] relative'>Unleash Your  <span className='text-[#8b49e9]'>Creativity</span></h1>
             <h2 className='sm:max-w-[35vw]  max-w-[80vw] mt-5'>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>
         </div>
 
 
-        <div className="sectionCards flex flex-col gap-7 mt-1 sm:flex-row sm:mt-1 w-[90vw]">
+        <div className="sectionCards flex flex-col gap-7 sm:flex-row sm:mt-10 w-[90vw]">
 
           <div className="secCard card1 sm:min-w-[387px] min-w-[90vw] min-h-[239px] max-w-[387px] max-h-[239px] relative sm:max-w-[80vw] 
-             m-auto sm:m-0 rounded-2xl mt-10 sm:mt-10 noise-bg overflow-hidden">
+             m-auto sm:m-0 rounded-2xl mt-10 sm:mt-5 noise-bg overflow-hidden">
               <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 absolute">
                 <svg className='m-auto ml-0.5 p-2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27" fill="currentColor"><path d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM14 9V15H10V9H5L12 2L19 9H14Z"></path></svg>
               </div>
