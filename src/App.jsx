@@ -8,6 +8,7 @@ import Section3 from '../components/Section3'
 import Plan from '../components/Plan'
 import Section4 from '../components/Section4'
 import Reviews from '../components/Reviews'
+import Faq from '../components/Faq'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Plan/>
       <Section4/>
       <Reviews/>
+      <Faq/>
     </>
   )
 }
