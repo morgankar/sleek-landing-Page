@@ -53,10 +53,10 @@ body{
 
 
 .item{
-  width: 170px;
+  /* width: 200px; */
   object-fit: cover;
   position: absolute;
-  left: 250%;
+  /* left: 150%; */
   top:40%;
   animation-name: scrollLeft;
   animation-duration: 10s;
@@ -67,7 +67,7 @@ body{
 .itemIcon{
   width: 170px;
   object-fit: cover;
-  position: absolute;
+  
   left: 250%;
   top:40%;
   animation-name: scrollDown;
