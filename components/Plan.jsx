@@ -49,7 +49,7 @@ const Plan = () => {
                         
                     </ul>
 
-                    <button className='w-full bg-amber-50 text-black mt-22 p-2 rounded-md font-bold text-sm'>Remix Template</button>
+                    <button className='w-full bg-amber-50 text-black mt-[108px] p-2 rounded-md font-bold text-sm'>Remix Template</button>
                     
                 </div>
             </div>
