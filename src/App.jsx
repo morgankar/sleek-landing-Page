@@ -9,6 +9,8 @@ import Plan from '../components/Plan'
 import Section4 from '../components/Section4'
 import Reviews from '../components/Reviews'
 import Faq from '../components/Faq'
+import Section5 from '../components/Section5'
+
 
 const App = () => {
   return (
@@ -23,6 +25,7 @@ const App = () => {
       <Section4/>
       <Reviews/>
       <Faq/>
+      <Section5/>
     </>
   )
 }

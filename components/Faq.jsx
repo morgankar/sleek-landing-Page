@@ -10,7 +10,7 @@ const Faq = () => {
     const {title, content} = accordionData;
 
   return (
-    <>  <div className='mt-15 border-2 sm:max-w-[1200px] m-auto max-w-[90vw] rounded-md noise-bg p-4'>
+    <>  <div className='mt-15 sm:max-w-[1200px] m-auto max-w-[90vw] rounded-md noise-bg p-4'>
         <h1 className='text-5xl'>Frequently Asked <span className='text-[#8b49e9]'>Questions</span> </h1>
         <h1 className='mt-6'>Have questions about our AI-Powered Design Assistant? Find answers to the most common questions and learn how our platform can enhance your creative process.</h1>
         
@@ -20,6 +20,7 @@ const Faq = () => {
                 <div className="accordion-content">{content}</div>
             </div>
         </div>
+        
     </div>
         
     </>
