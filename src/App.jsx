@@ -10,6 +10,8 @@ import Section4 from '../components/Section4'
 import Reviews from '../components/Reviews'
 import Faq from '../components/Faq'
 import Section5 from '../components/Section5'
+import EndingHero from '../components/EndingHero'
+import Footer from '../components/Footer'
 
 
 const App = () => {
@@ -26,6 +28,8 @@ const App = () => {
       <Reviews/>
       <Faq/>
       <Section5/>
+      <EndingHero/>
+      <Footer/>
     </>
   )
 }

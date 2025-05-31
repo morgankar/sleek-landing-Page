@@ -24,7 +24,7 @@ const Section5 = () => {
             {/* Card2 */}
               <div className="mt-4 sm:mt-0 noise-bg h-[350px] w-[90vw] rounded-2xl overflow-hidden flex flex-col">
                 <div className='h-[70%] overflow-hidden'>
-                    <img className='scale-120' src="imgB.avif" alt="img"/>
+                    <img className='scale-110' src="imgB.avif" alt="img"/>
                 </div>
                 <div className="textbox p-2 h-[50%]">
                     <div className='flex justify-between mt-3'>
