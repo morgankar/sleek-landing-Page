@@ -10,12 +10,12 @@ const Section3 = () => {
 
 
         
-        <div className="sm:grid sm:gap-5 mt-[200px] ">
+        <div className="sm:grid mt-[150px] ">
             {/* Row1 */}
-            <div className="flex flex-col sm:flex-row items-center">
+            <div className="flex flex-col sm:flex-row items-center sm:gap-5">
                 <div className=" rounded-2xl sm:w-[468px] sm:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative ">
                   <div className="blck flex justify-between">
-                    <h6 className='sm:text-sm text-xl sm:ml-5 sm:mt-5 sm:w-90 w-[60vw] ml-5 mt-5 sm:leading-5 leading-6 font-medium'>Dive into the world of AI where design possibilities are limitless. Let the cutting-edge technology transform your concepts into breathtaking visuals.</h6>
+                    <h6 className='sm:text-sm text-xl sm:ml-5 sm:mt-5 sm:w-90 w-[60vw] ml-5 mt-5  sm:leading-5 leading-6 font-medium'>Dive into the world of AI where design possibilities are limitless. Let the cutting-edge technology transform your concepts into breathtaking visuals.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
                     <svg className='pl-2 mt-1.5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="currentColor"><path d="M4.22173 18.3642L5.63574 19.7784L15.2427 10.1716L19.071 14L19.071 4.92892L9.99999 4.92893L13.8284 8.75738L4.22173 18.3642Z"></path></svg>
                   </div>
@@ -26,7 +26,7 @@ const Section3 = () => {
                 </div>
                 
                
-                <div className="mt-6 rounded-2xl sm:w-[468px] sm:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
+                <div className="mt-6 sm:mt-0 rounded-2xl sm:w-[712px] sm:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative ">
                   <div className="blck flex justify-between">
                     <h6 className='sm:text-sm text-xl sm:ml-5 sm:mt-5 sm:w-90 w-[60vw] ml-5 mt-5 sm:leading-5 leading-6 font-medium'>Step beyond the ordinary with designs that defy conventions. Our AI conjures up imaginative visuals that push the boundaries of creativity.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
@@ -40,8 +40,8 @@ const Section3 = () => {
             </div>
            
              {/* Row2 */}
-            <div className="flex flex-col sm:flex-row items-center">
-                <div className="mt-6 rounded-2xl sm:w-[468px] sm:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
+            <div className="flex flex-col sm:flex-row items-center gap-5">
+                <div className="mt-6 rounded-2xl sm:w-[712px] sm:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
                   <div className="blck flex justify-between">
                     <h6 className='sm:text-sm text-xl sm:ml-5 sm:mt-5 sm:w-90 w-[60vw] ml-5 mt-5 sm:leading-5 leading-6 font-medium'>Experience the perfect blend of form and function. Our AI ensures that every design not only looks stunning but also serves its purpose flawlessly.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">

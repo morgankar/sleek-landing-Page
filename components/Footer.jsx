@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
              <div className="w-[99%] h-px bg-gray-400  mt-15 sm:mt-10 mb-5 mx-auto"></div>
              <div className="flex sm:flex-row flex-col-reverse text-gray-400 text-[15px] font-medium justify-between gap-3">
-                <div className="first flex sm:flex-row flex-col gap-3 ">
+                <div className="first flex sm:flex-row flex-col gap-3 sm:opacity-100 opacity-0 ">
                     <h1>Developed by @morgankar </h1>
                     <h1>Designed by Templyo</h1>
                 </div>
