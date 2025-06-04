@@ -16,7 +16,7 @@ const EndingHero = () => {
         <button className='bg-[#8f4ded] p-4 rounded-[10px] w-[40vw] sm:w-[160px] text-sm font-bold m-auto sm:m-0 sm:mt-6 mt-7 ml-0'>Remix Template</button>
       </div>
     
-      <div className=" sm:w-[610px] sm:mx-160 sm:mt-10 absolute  mx-15 w-[600px] mt-70">
+      <div className=" sm:w-[610px] sm:mx-174 sm:mt-20 absolute  mx-33 w-[600px] mt-65">
         <img src='/img_5.avif' className='w-[350px] sm:w-auto h-auto object-contain' alt="banner"/>
       </div>
 
