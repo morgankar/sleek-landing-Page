@@ -1,8 +1,11 @@
+import { useState } from "react";
 
 const Faq = () => {
+    const [active, setActive] = useState(false);
 
     const accordionData = [
     {
+        id:1,
         title: 'How does the AI generate designs?',
         content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores earum possimus deleniti aspernatur expedita voluptas reprehenderit dolore at minima sapiente, veniam, dicta laborum! Natus similique modi, asperiores nobis ducimus dolore fugit exercitationem iusto ut eum saepe unde! Perspiciatis, provident.'
     },
@@ -40,11 +43,17 @@ const Faq = () => {
         </div>
        
         
-        <div className="accordion  mt-8 border ">
-            <div className="accordion-item">
-                <div className="accordion-title font-bold">{title}</div>
-                <div className="accordion-content">{content}</div>
-            </div>
+        <div className="mt-8 border ">
+                {accordionData.map(item => 
+                <div className="accordion-items ">
+                    <div className="accordion-title font-bold" key={item.id}>{item.title}</div>
+                    <div className="accordion-content">{item.content}</div>
+                </div>
+                
+                 )}
+                
+                
+           
         </div>
         
     </div>
