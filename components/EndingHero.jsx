@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 const EndingHero = () => {
   return (
 
-  <div className="box  mt-20 sm:mt-0 w-[100vw] sm:h-[50vh] h-[70vh] max-w-[100vw] sm:max-w-[1200px] m-auto sm:rounded-4xl noise-bg flex relative overflow-hidden mb-20">
+  <div className="box mt-20 sm:mt-20 w-[100vw] sm:h-[50vh] h-[70vh] max-w-[100vw] sm:max-w-[1200px] m-auto sm:rounded-4xl noise-bg flex relative overflow-hidden mb-20">
       <div className="textBlock w-[90vw] sm:mt-0 sm:ml-4 sm:p-5 sm:pt-35 sm:max-w-[600px]  sm:min-w-[600px] flex flex-col ">
 
         <div className=" sm:text-6xl sm:font-extrabold sm:leading-[70px] sm:mt-0 mt-10 leading-[50px] text-5xl font-medium w-[95vw] sm:w-[40vw]"> Start Your Design <span className='text-[#8b49e9]'>Journey </span>Today
