@@ -8,23 +8,23 @@ const Faq = () => {
     },
     {
          title: 'Can I customize the AI-generated designs?',
-        content: ''
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus similique modi, asperiores nobis ducimus dolore fugit exercitationem iusto ut eum saepe unde! Perspiciatis, provident.'
     },
     {
          title: 'What support options are available?',
-        content: 'Our AI analyzes your design'
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. aspernatur expedita voluptas reprehenderit dolore at minima sapiente, veniam, dicta laborum! Natus similique modi, asperiores nobis ducimus dolore fugit exercitationem iusto ut eum saepe unde! Perspiciatis, provident.'
     },
     {
          title: 'Is there a free trial available?',
-        content: 'Our AI analyzes your design'
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores earum possimus deleniti aspernatur expedita voluptas reprehenderit dolore at minima sapiente, veniam, dicta laborum! , provident.'
     },
     {
          title: 'How secure is my data?',
-        content: 'Our AI analyzes your design'
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores earum possimus deleniti aspernatur expedita voluptas reprehenderit  fugit exercitationem iusto ut eum saepe unde! Perspiciatis, provident.'
     },
     {
          title: 'What integrations are available?',
-        content: 'Our AI analyzes your design'
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.  eum saepe unde! Perspiciatis, provident.'
     },
 
 ];
