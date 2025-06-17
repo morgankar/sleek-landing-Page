@@ -12,7 +12,7 @@ import Faq from '../components/Faq'
 import Section5 from '../components/Section5'
 import EndingHero from '../components/EndingHero'
 import Footer from '../components/Footer'
-import Accordion from '../components/Accordion'
+
 
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
       <Section5/>
       <EndingHero/>
       <Footer/>
-      <Accordion/>
+
     </>
   )
 }
