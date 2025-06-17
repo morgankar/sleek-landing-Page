@@ -32,7 +32,7 @@ const Faq = () => {
 
 ];
 
-    const {title, content} = accordionData;
+    
 
   return (
     <>  
@@ -43,11 +43,12 @@ const Faq = () => {
         </div>
        
         
-        <div className="mt-8 border ">
+        <div className="mt-8 max-w-[505px]">
                 {accordionData.map(item => 
-                <div className="accordion-items ">
-                    <div className="accordion-title font-bold" key={item.id}>{item.title}</div>
-                    <div className="accordion-content">{item.content}</div>
+                <div className="accordion-items relative mb-8">
+                    <div className="accordion-title font-extrabold" key={item.id}>{item.title}</div>
+                    <div className="accordion-content mt- mb-2">{item.content}</div>
+                    <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
                 </div>
                 
                  )}

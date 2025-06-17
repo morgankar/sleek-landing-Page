@@ -18,7 +18,7 @@ const Plan = () => {
                     <h1 className='text-sm text-gray-300'>FREE</h1>
                     <h1 className='text-4xl font-bold mt-3'>$0/m</h1>
                     <h1 className='text-gray-300 mt-1'>Free forever</h1>
-                    <div className="w-[98%] h-px bg-gray-300 mt-6 mb-5 mx-auto"></div>
+                    <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
 
                     <ul>
                         <li className='mb-3'><span>✔️</span> Basic AI-generated designs</li>
@@ -37,8 +37,7 @@ const Plan = () => {
                     <h1 className='text-sm text-gray-300'>BASIC</h1>
                     <h1 className='text-4xl font-bold mt-3'>$14.99/m</h1>
                     <h1 className='text-gray-300 mt-1'>Billed Monthly</h1>
-                    <div className="bg-gray-300 mt-6 mb-5 mx-auto"></div>
-
+                   <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
                     <ul>
                         <li className='mb-3'><span>✔️</span> Advanced AI-generated designs</li>
                         <li className='mb-3'><span>✔️</span>Full access to customization tools</li>
@@ -49,7 +48,7 @@ const Plan = () => {
                         
                     </ul>
 
-                    <button className='w-full bg-amber-50 text-black mt-[108px] p-2 rounded-md font-bold text-sm'>Remix Template</button>
+                    <button className='w-full bg-amber-50 text-black mt-[88px] p-2 rounded-md font-bold text-sm'>Remix Template</button>
                     
                 </div>
             </div>
@@ -60,7 +59,7 @@ const Plan = () => {
                     <h1 className='text-4xl font-bold mt-3'>$29.99/m</h1>
                     <h1 className='text-gray-300 mt-1'>
                     Billed Monthly</h1>
-                    <div className="w-[98%] h-px bg-gray-300 mt-6 mb-5 mx-auto"></div>
+                     <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
     
                     <ul>
                         <li className='mb-3'><span>✔️</span>All features included in Pro Plan</li>
