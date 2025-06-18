@@ -30,7 +30,7 @@ const Faq = () => {
     ];
 
     const [activeId, setActiveId] = useState(null);
-    const [isOpen, setIsOpen] = useState(false)
+   
 
     const handleToggle = (index) => {
         setActiveId(activeId === index ? null : index);
