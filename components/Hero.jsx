@@ -23,7 +23,7 @@ const Hero = () => {
       flex flex-col
       
       ">
-        <div className="heading sm:text-6xl sm:font-extrabold leading-[70px] text-2xl font-bold">
+        <div className="heading text-5xl leading-[70px] lg:text-6xl font-bold lg:font-extrabold">
         Your AI-Powered <span className='text-[#8b49e9]'>Design</span> Assistant
         </div>
         <div className="para pt-3 max-w-[500px] mt-2 text-gray-300">
