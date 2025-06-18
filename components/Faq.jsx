@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "motion/react";
 
 const Faq = () => {
     const accordionData = [
@@ -29,6 +30,7 @@ const Faq = () => {
     ];
 
     const [activeId, setActiveId] = useState(null);
+    const [isOpen, setIsOpen] = useState(false)
 
     const handleToggle = (index) => {
         setActiveId(activeId === index ? null : index);
@@ -46,19 +48,31 @@ const Faq = () => {
                 </h1>
             </div>
            
-            <div className="mt-8 w-[505px] ">
+            <div className="mt-8 w-[505px] group">
                 {accordionData.map((item, index) => 
                     <div key={index} className=" mb-8">
                         <button 
                             className="font-extrabold w-full text-left bg-transparent border-none p-0 cursor-pointer" 
                             onClick={() => handleToggle(index)}
                         >
-                            {item.title}
-                        </button>
-                        {activeId === index && (
-                            <div className=" max-w-[505px] mt-2 mb-2">
-                                {item.content}
+                            <div className="flex justify-between">
+                            {item.title} 
+                            <motion.svg 
+                            initial = {{rotate: 180}}
+                            animate={{rotate: activeId === index ? 180:0}}
+                            transition={{duration: 0.5}}
+                            className="w-5 h-5 mr-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9999 10.8284L7.0502 15.7782L5.63599 14.364L11.9999 8L18.3639 14.364L16.9497 15.7782L11.9999 10.8284Z"></path></motion.svg>
                             </div>
+                        </button>
+
+                        {activeId === index && (
+                            <motion.div 
+                            initial = {{height:0,opacity:0}}
+                            animate ={ {height:"auto", opacity:1} }
+                            transition={{duration:0.3, ease: "easeInOut"}}
+                            className=" max-w-[505px] mt-2 mb-2">
+                                {item.content}
+                            </motion.div>
                         )}
                         <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
                     </div>
