@@ -3,8 +3,8 @@ import React from 'react'
 const Plan = () => {
   return (
     <div className="container w-[90vw] sm:max-w-[1200px] m-auto sm:h-[100vh]">
-        <div className="header mt-30">
-            <h1 className='sm:text-5xl sm:font-bold font-medium  leading-[50px] sm:max-w-[32vw] text-5xl w-[90vw] relative'>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
+        <div className="header mt-30 sm:mt-70">
+            <h1 className='sm:text-5xl sm:font-bold font-medium  leading-[50px] sm:max-w-[640px] text-5xl w-[90vw]  relative '>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
             <h1 className='absolute sm:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </div>
         <div className="btns flex justify-center mt-[180px] sm:mt-[120px]">

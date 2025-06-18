@@ -4,7 +4,7 @@ const Hero = () => {
   return (
 
     <div className="box 
-     w-[90vw] sm:h-[58vh] 
+     w-[90vw] sm:h-[550px] 
      h-[80vh]
      max-w-[1200px]
      m-auto rounded-4xl sm:mt-18 mt-15
