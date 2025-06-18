@@ -5,12 +5,12 @@ const Section3 = () => {
     <>
     <div className="container sm:max-w-[1200px] sm:h-[100vh] m-auto max-w-[90vw]">
         
-            <h1 className='sm:text-5xl text-5xl font-medium sm:font-bold leading-[50px] sm:max-w-[32vw] max-w-[120vw]'>Transforming Imagination into <span className='text-[#8b49e9] relative'>Reality</span></h1>
-            <h2 className='absolute sm:max-w-[36vw] mt-[15px] max-w-[90vw] '>Unlock the full potential of your creativity with our AI-powered design assistant. Explore new dimensions of design, from futuristic visuals to timeless craftsmanship, and witness how AI can turn your wildest ideas into stunning realities.</h2>
+            <h1 className='sm:text-5xl text-5xl font-medium sm:font-bold leading-[50px] sm:max-w-[32vw] max-w-[120vw]'>Transforming Imagination into <span className='text-[#8b49e9] relative '>Reality</span></h1>
+            <h2 className='absolute sm:max-w-[36vw] mt-[20px] max-w-[90vw] '>Unlock the full potential of your creativity with our AI-powered design assistant. Explore new dimensions of design, from futuristic visuals to timeless craftsmanship, and witness how AI can turn your wildest ideas into stunning realities.</h2>
 
 
         
-        <div className="sm:grid mt-[150px] ">
+        <div className="sm:grid mt-[180px]  ">
             {/* Row1 */}
             <div className="flex flex-col sm:flex-row items-center sm:gap-5">
                 <div className=" rounded-2xl sm:w-[468px] sm:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative ">

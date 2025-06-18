@@ -38,17 +38,17 @@ const Faq = () => {
 
     return (
         <>  
-        <div className='mt-30 sm:max-w-[1200px] m-auto max-w-[90vw] rounded-3xl  p-4 flex flex-col sm:flex-row sm:justify-between items-center sm:min-h-[446px] noise-bg-pointer '>
+        <div className='mt-30 sm:max-w-[1200px] m-auto max-w-[90vw] rounded-3xl  p-4 flex flex-col sm:flex-row sm:justify-between items-center sm:min-h-[446px] noise-bg-pointer overflow-hidden '>
             <div>
-                <h1 className='sm:text-6xl text-5xl font-medium sm:w-[520px] w-[95vw] sm:ml-9 mt-8 '>
+                <h1 className='sm:text-6xl text-5xl font-medium sm:w-[520px] w-[90vw] sm:ml-9 mt-8 ml-6'>
                     Frequently Asked <span className='text-[#8b49e9]'>Questions</span> 
                 </h1>
-                <h1 className='mt-6 sm:w-[500px] sm:ml-9 w-[95vw]'>
+                <h1 className='mt-6 sm:w-[500px] sm:ml-9 w-[90vw]  ml-6'>
                     Have questions about our AI-Powered Design Assistant? Find answers to the most common questions and learn how our platform can enhance your creative process.
                 </h1>
             </div>
            
-            <div className="mt-8 w-[505px] group">
+            <div className="mt-8 sm:w-[505px] w-[90vw] sm:ml-0 ml-6 group">
                 {accordionData.map((item, index) => 
                     <div key={index} className=" mb-8">
                         <button 
