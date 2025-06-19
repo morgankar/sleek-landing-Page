@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-
+import { motion } from 'motion/react'
+import  { useState } from 'react'
+motion
 
 const Plan = () => {
 
@@ -11,7 +12,13 @@ const Plan = () => {
             <h1 className='absolute lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </div>
         <div className="btns flex justify-center mt-[180px] lg:mt-[120px] ">
-            <button onClick={() => setOn(!on)} className={ `${on ? "bg-red-600": "bg-violet-500"} cursor-pointer p-3 rounded-3xl ` }>Toggle</button>
+            <button onClick={() => setOn(!on)} className={ `${on ? "bg-violet-400": "bg-gray-200"} cursor-pointer p-1 w-[90px] rounded-3xl  `}>
+                <motion.div 
+                animate = {{x: on? 40: 0}}
+                className='w-10 h-10 bg-gray-500 rounded-full'>
+
+                </motion.div>
+            </button>
         </div>
 
         <div className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
