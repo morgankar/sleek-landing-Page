@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 const Plan = () => {
+
+    const [on, setOn] = useState(false)
   return (
     <div className="container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[100vh]">
         <div className="header mt-30 lg:mt-70 ">
@@ -8,7 +11,7 @@ const Plan = () => {
             <h1 className='absolute lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </div>
         <div className="btns flex justify-center mt-[180px] lg:mt-[120px] ">
-            <button className=' bg-violet-500 p-1 rounded-3xl'>Toggle</button>
+            <button onClick={() => setOn(!on)} className={ `${on ? "bg-red-600": "bg-violet-500"} cursor-pointer p-3 rounded-3xl ` }>Toggle</button>
         </div>
 
         <div className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
