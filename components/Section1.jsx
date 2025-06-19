@@ -9,7 +9,7 @@ const Section1 = () => {
         </div>
 
 
-        <div className="sectionCards flex flex-col gap-7 lg:flex-row md:flex-col lg:flex-row lg:mt-10 w-[90vw]">
+        <div className="sectionCards flex flex-col gap-7  md:flex-col lg:flex-row lg:mt-10 w-[90vw]">
 
           <div className="secCard card1 lg:min-w-[387px] min-w-[90vw] min-h-[239px] max-w-[387px] max-h-[239px] relative lg:max-w-[80vw] 
              m-auto lg:m-0 rounded-2xl mt-10 lg:mt-5 noise-bg overflow-hidden">

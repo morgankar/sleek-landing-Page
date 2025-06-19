@@ -2,18 +2,18 @@ import React from 'react'
 
 const Plan = () => {
   return (
-    <div className="container w-[90vw] sm:max-w-[1200px] m-auto sm:h-[100vh]">
-        <div className="header mt-30 sm:mt-70">
-            <h1 className='sm:text-5xl sm:font-bold font-medium  leading-[50px] sm:max-w-[640px] text-5xl w-[90vw]  relative '>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
-            <h1 className='absolute sm:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
+    <div className="container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[100vh]">
+        <div className="header mt-30 lg:mt-70 ">
+            <h1 className='lg:text-5xl lg:font-bold font-medium  leading-[50px] lg:max-w-[640px] text-5xl w-[90vw]  relative '>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
+            <h1 className='absolute lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </div>
-        <div className="btns flex justify-center mt-[180px] sm:mt-[120px]">
+        <div className="btns flex justify-center mt-[180px] lg:mt-[120px] ">
             <button className=' bg-violet-500 p-1 rounded-3xl'>Toggle</button>
         </div>
 
         <div className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
             {/* card1 */}
-            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto ">
+            <div className="rounded-2xl lg:w-[387px] lg:h-[520px] noise-bg overflow-hidden relative w-[90vw] sm:w-[80vw] m-auto  ">
                 <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>FREE</h1>
                     <h1 className='text-4xl font-bold mt-3'>$0/m</h1>
@@ -32,7 +32,7 @@ const Plan = () => {
                 </div>
             </div>
             {/* card2 */}
-            <div className="rounded-2xl sm:w-[387px] sm:h-[520px] bg-[#8b49e9] overflow-hidden relative w-[90vw] m-auto">
+            <div className="rounded-2xl lg:w-[387px] lg:h-[520px] bg-[#8b49e9] overflow-hidden relative w-[90vw] sm:w-[80vw] m-auto">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>BASIC</h1>
                     <h1 className='text-4xl font-bold mt-3'>$14.99/m</h1>
@@ -55,7 +55,7 @@ const Plan = () => {
 
 
             {/* card3 */}
-            <div className=" rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto ">
+            <div className=" rounded-2xl lg:w-[387px] lg:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto sm:w-[80vw] ">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>PRO</h1>
                     <h1 className='text-4xl font-bold mt-3'>$29.99/m</h1>

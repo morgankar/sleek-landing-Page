@@ -5,8 +5,8 @@ const Section3 = () => {
     <>
     <div className="container sm:max-w-[1200px] lg:h-[100vh] m-auto max-w-[90vw]">
         
-            <h1 className='lg:text-5xl text-5xl font-medium sm:font-bold leading-[50px] lg:max-w-[32vw] max-w-[120vw]'>Transforming Imagination into <span className='text-[#8b49e9] relative '>Reality</span></h1>
-            <h2 className='absolute lg:max-w-[36vw] mt-[20px] max-w-[90vw] '>Unlock the full potential of your creativity with our AI-powered design assistant. Explore new dimensions of design, from futuristic visuals to timeless craftsmanship, and witness how AI can turn your wildest ideas into stunning realities.</h2>
+            <h1 className='lg:text-5xl text-5xl font-medium sm:font-bold leading-[50px] lg:max-w-[32vw] max-w-[120vw] p-4'>Transforming Imagination into <span className='text-[#8b49e9] relative '>Reality</span></h1>
+            <h2 className='absolute lg:max-w-[36vw] mt-[20px] max-w-[90vw] p-4'>Unlock the full potential of your creativity with our AI-powered design assistant. Explore new dimensions of design, from futuristic visuals to timeless craftsmanship, and witness how AI can turn your wildest ideas into stunning realities.</h2>
 
 
         
@@ -49,7 +49,7 @@ const Section3 = () => {
                     </div>
 
                   </div>
-                  <h1 className='lg:text-4xl text-2xl absolute bottom-5 left-4 font-bold'>Synergy and Style</h1>
+                  <h1 className='sm:text-4xl text-2xl absolute bottom-5 left-4 font-bold'>Synergy and Style</h1>
                 </div>
                 <div className="mt-6 rounded-2xl lg:w-[468px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
                 <div className="blck flex justify-between">
