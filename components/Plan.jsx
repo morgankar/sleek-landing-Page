@@ -12,13 +12,15 @@ const Plan = () => {
             <h1 className='absolute lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </div>
         <div className="btns flex justify-center mt-[180px] lg:mt-[120px] ">
-            <button onClick={() => setOn(!on)} className={ `${on ? "bg-violet-400": "bg-gray-200"} cursor-pointer p-1 w-[90px] rounded-3xl  `}>
+            <span className={`${on ? "text-gray-400": "text-white" } mr-2 flex items-center p-2`}>Monthly</span>
+            <button onClick={() => setOn(!on)} className="cursor-pointer p-1 w-[90px] rounded-3xl bg-[#8b49e9] ">
                 <motion.div 
-                animate = {{x: on? 40: 0}}
-                className='w-10 h-10 bg-gray-500 rounded-full'>
+                animate = {{x: on? 50: 0}}
+                className='w-8 h-8 bg-white rounded-full'>
 
                 </motion.div>
             </button>
+            <span className={`${on ? "text-white":"text-gray-400" } ml-2 flex items-center p-2`}>Yearly</span>
         </div>
 
         <div className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
