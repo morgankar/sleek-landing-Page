@@ -12,7 +12,7 @@ const Section3 = () => {
         
         <div className="lg:grid mt-[180px]  ">
             {/* Row1 */}
-            <div className="flex flex-col lg:flex-row items-center sm:gap-5">
+            <div className="flex flex-col lg:flex-row items-center sm:gap-5 ">
                 <div className=" rounded-2xl lg:w-[468px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative ">
                   <div className="blck flex justify-between">
                     <h6 className='lg:text-sm text-xl sm:ml-5 lg:mt-5 lg:w-90 w-[60vw] ml-5 mt-5  lg:leading-5 leading-6 font-medium'>Dive into the world of AI where design possibilities are limitless. Let the cutting-edge technology transform your concepts into breathtaking visuals.</h6>
