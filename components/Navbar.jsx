@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { motion } from 'motion/react';
+import { useState } from 'react'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,8 @@ const Navbar = () => {
           onClick={() => setIsOpen(!isOpen)}
           
           className='hamburg noise-bg-pointer cursor-pointer px-5 rounded-xl py-2 w-auto font-semibold flex items-center justify-center '> 
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" /></svg>
+            <motion.svg 
+            animate={{rotate : isOpen? 90:0 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" /></motion.svg>
           </button>
         </div>
         
@@ -35,7 +37,7 @@ const Navbar = () => {
       <div className={`
       ${isOpen ? 'block':'hidden'}
         
-        bg-gray-700/60 rounded-2xl  text-shadow-white absolute z-900 backdrop-blur-[8px] right-0 p-5  h-[290px] text-white  top-[100px] left-0 w-[80vw] px-8 py-4 transition-all duration-300 m-auto`}>
+        bg-gray-700/60 rounded-2xl  text-shadow-white absolute z-900 backdrop-blur-[8px] right-0 p-5  h-[290px] text-white  top-[100px] left-0 w-[80vw] sm:w-[50vw] px-8 py-4 transition-all duration-300 m-auto`}>
         <ul>
           <li className='mb-3'>
             <a href="#" className="text-white hover:text-gray-300">

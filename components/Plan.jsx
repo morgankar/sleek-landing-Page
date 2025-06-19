@@ -11,7 +11,7 @@ const Plan = () => {
             <button className=' bg-violet-500 p-1 rounded-3xl'>Toggle</button>
         </div>
 
-        <div className="cards flex sm:flex-row flex-col items-center gap-4 mt-6 ">
+        <div className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
             {/* card1 */}
             <div className="rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto ">
                 <div className="content p-4">
@@ -48,10 +48,12 @@ const Plan = () => {
                         
                     </ul>
 
-                    <button className='w-full bg-amber-50 text-black mt-[88px] p-2 rounded-md font-bold text-sm'>Remix Template</button>
+                    <button className='w-full bg-amber-50 text-black mt-[88px] p-2 rounded-md font-bold text-sm '>Remix Template</button>
                     
                 </div>
             </div>
+
+
             {/* card3 */}
             <div className=" rounded-2xl sm:w-[387px] sm:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto ">
             <div className="content p-4">
