@@ -47,8 +47,8 @@ const Plan = () => {
             <div className="rounded-2xl lg:w-[387px] lg:h-[520px] bg-[#8b49e9] overflow-hidden relative w-[90vw] sm:w-[80vw] m-auto">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>BASIC</h1>
-                    <h1 className='text-4xl font-bold mt-3'>$14.99/m</h1>
-                    <h1 className='text-gray-300 mt-1'>Billed Monthly</h1>
+                    <h1 className='text-4xl font-bold mt-3'>{on? "$11.93": "$14.99" }/m</h1>
+                    <h1 className='text-gray-300 mt-1'> { on? "Billed yearly":"Billed monthly"  }</h1>
                    <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
                     <ul>
                         <li className='mb-3'><span>✔️</span> Advanced AI-generated designs</li>
@@ -70,9 +70,9 @@ const Plan = () => {
             <div className=" rounded-2xl lg:w-[387px] lg:h-[520px] noise-bg overflow-hidden relative w-[90vw] m-auto sm:w-[80vw] ">
             <div className="content p-4">
                     <h1 className='text-sm text-gray-300'>PRO</h1>
-                    <h1 className='text-4xl font-bold mt-3'>$29.99/m</h1>
+                    <h1 className='text-4xl font-bold mt-3'>{on? "$24.93": "$29.99" }/m</h1>
                     <h1 className='text-gray-300 mt-1'>
-                    Billed Monthly</h1>
+                    { on? "Billed yearly":"Billed monthly"  }</h1>
                      <div className="w-[98%] h-px bg-white opacity-20 mt-6 mb-5 mx-auto"></div>
     
                     <ul>
