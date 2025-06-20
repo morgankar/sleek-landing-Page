@@ -1,9 +1,14 @@
-import React from 'react'
+import { motion } from "motion/react"
+
 
 const Hero = () => {
   return (
 
-    <div className="box 
+    <motion.div 
+    initial = {{filter: "blur(10px"}}
+      animate={{ filter: "blur(0px)" }}
+      transition={{ duration: 0.7 }}
+    className="box 
      w-[90vw] sm:h-[550px] 
      h-[80vh]
      max-w-[1200px]
@@ -42,7 +47,7 @@ const Hero = () => {
         <img src='/img_1.avif' className='w-[350px] sm:w-auto h-auto object-contain' alt="banner"/>
         
       </div>
-    </div>
+    </motion.div>
   )
 }
 
