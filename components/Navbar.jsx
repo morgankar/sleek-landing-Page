@@ -19,7 +19,7 @@ const Navbar = () => {
       items-center
       max-w-[1260px]">
         <div className="logo flex items-center">
-        <img src="./public/logo.avif" alt="Site Logo" className='w-11'/>
+        <img src="./logo.avif" alt="Site Logo" className='w-11'/>
         <h1 className='text-2xl font-bold '>HelixAI</h1>
         </div>
         <div className="rightNav flex gap-5 items-center">
