@@ -28,7 +28,6 @@ body::-webkit-scrollbar {
   background-size: 100px;
   background-repeat: repeat;
   opacity: 1;
-  background-blend-mode: overlay;
   
 }
 
