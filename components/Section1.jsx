@@ -1,15 +1,23 @@
-import React from 'react'
+import { motion } from 'motion/react';
 
 const Section1 = () => {
   return (
     <div className='section w-[90vw] h-auto lg:max-w-[1200px] m-auto mt-40 mb-26'>
-        <div className="textblock2 ">
+        <motion.div 
+         initial = {{opacity:0}}
+      whileInView={{opacity:1}}
+      transition={{ duration: 0.8,delay: 1 }}
+        className="textblock2">
             <h1 className='heading text-5xl font-bold leading-[70px] relative'>Unleash Your  <span className='text-[#8b49e9]'>Creativity</span></h1>
             <h2 className='lg:max-w-[35vw]  max-w-[80vw] mt-5'>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>
-        </div>
+        </motion.div>
 
 
-        <div className="sectionCards flex flex-col gap-7  md:flex-col lg:flex-row lg:mt-10 w-[90vw]">
+        <motion.div 
+          initial = {{opacity:0}}
+      whileInView={{opacity:1}}
+      transition={{ duration: 0.8,delay: 0.3 }}
+        className="sectionCards flex flex-col gap-7  md:flex-col lg:flex-row lg:mt-10 w-[90vw]">
 
           <div className="secCard card1 lg:min-w-[387px] min-w-[90vw] min-h-[239px] max-w-[387px] max-h-[239px] relative lg:max-w-[80vw] 
              m-auto lg:m-0 rounded-2xl mt-10 lg:mt-5 noise-bg overflow-hidden">
@@ -41,7 +49,7 @@ const Section1 = () => {
               <h2 className='font-light'>Perfect your chosen concept with easy-to-use AI tools.</h2></div>
             </div>
       
-        </div>
+        </motion.div>
     </div> 
   )
 }
