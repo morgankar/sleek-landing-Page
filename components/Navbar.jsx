@@ -7,7 +7,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar 
+      <motion.div 
+      initial = {{opacity: 0}}
+      animate={{ opacity: 100}}
+      transition={{ duration: 0.7 }}
+      className="navbar 
       top-8 z-[20] 
       mx-auto flex flex-row justify-between 
       px-8 mt-8 sm:mt-9 mb-4 
@@ -30,7 +34,7 @@ const Navbar = () => {
         </div>
         
 
-      </div>
+      </motion.div>
 
 
       {/* Mobile Menu */}
