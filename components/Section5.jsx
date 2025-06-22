@@ -1,8 +1,12 @@
-
+import { motion } from "motion/react"
 
 const Section5 = () => {
   return (
-    <div className="container sm:max-w-[1200px]  max-w-[90vw] m-auto p-4 mt-30 ">
+    <motion.div 
+     initial = {{opacity:0,y:50}}
+      whileInView={{opacity: 1, y:0}}
+      transition={{ duration: 0.8,delay: 0.5 }}
+    className=" container sm:max-w-[1200px]  max-w-[90vw] m-auto p-4 mt-30 ">
         <h1 className='text-5xl sm:text-6xl sm:font-bold font-medium lg:max-w-[40vw]'>Stay Inspired with Our Latest <span className='text-[#8b49e9]'>Insights</span></h1>
         <h1 className='mt-4 lg:max-w-[40vw]'>Dive into our blog for the latest trends, tips, and insights in the world of design and AI technology. Whether you're looking for inspiration, tutorials, or industry news, our articles are crafted to keep you informed and inspired.</h1>
 
@@ -53,11 +57,11 @@ const Section5 = () => {
         </div>
 
          <div className="cta mt-15 text-sm font-bold text-center ">
-            <button className='bg-[#8f4ded] p-3 rounded-[10px] sm:max-w-[230px]'>Read More</button>
+            <button className='bg-[#8f4ded] p-3 rounded-[10px] sm:max-w-[230px] cursor-pointer '>Read More</button>
         </div>
         
 
-    </div>
+    </motion.div>
   )
 }
 

@@ -12,7 +12,7 @@ const [open,setOpen ] = useState(false);
   return (
     
     <>
-    <div className="overflow-hidden transition-all duration-500 ease-in-out">
+    <div className=" overflow-hidden transition-all duration-500 ease-in-out">
         <h1 onClick={()=> setOpen(!open)}>{title}</h1>
         {open && <p className="mt-2 ">{content}</p>}
     </div>
