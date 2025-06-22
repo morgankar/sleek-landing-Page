@@ -6,7 +6,7 @@ const Section1 = () => {
         <motion.div 
          initial = {{opacity:0}}
       whileInView={{opacity:1}}
-      transition={{ duration: 0.8,delay: 1 }}
+      transition={{ duration: 0.8,delay: 0.5 }}
         className="textblock2">
             <h1 className='heading text-5xl font-bold leading-[70px] relative'>Unleash Your  <span className='text-[#8b49e9]'>Creativity</span></h1>
             <h2 className='lg:max-w-[35vw]  max-w-[80vw] mt-5'>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>
