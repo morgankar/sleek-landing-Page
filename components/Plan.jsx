@@ -1,17 +1,26 @@
 import { motion } from 'motion/react'
 import  { useState } from 'react'
-motion
+
 
 const Plan = () => {
 
     const [on, setOn] = useState(false)
   return (
-    <div className="container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[100vh]">
-        <div className="header mt-30 lg:mt-70 ">
+    <div className=" container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[100vh]">
+        <motion.div 
+         initial = {{opacity:0, y:60}}
+      whileInView={{opacity: 1, y:0}}
+      transition={{ duration: 0.2,delay: 0.5 }}
+        className=" header mt-30 lg:mt-70 ">
             <h1 className='lg:text-5xl lg:font-bold font-medium  leading-[50px] lg:max-w-[640px] text-5xl w-[90vw]  relative '>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
-            <h1 className='absolute lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
-        </div>
-        <div className="btns flex justify-center mt-[180px] lg:mt-[120px] ">
+            <h1 className='  lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
+        </motion.div>
+
+        <motion.div 
+         initial = {{opacity:0,y:50}}
+      whileInView={{opacity: 1,y:0}}
+      transition={{ duration: 0.8,delay: 0.5 }}
+        className="btns flex justify-center mt-[180px] lg:mt-[120px] ">
             <span className={`${on ? "text-gray-400": "text-white" } mr-2 flex items-center p-2`}>Monthly</span>
             <button onClick={() => setOn(!on)} className="cursor-pointer p-1 w-[90px] rounded-3xl bg-[#8b49e9] ">
                 <motion.div 
@@ -21,9 +30,13 @@ const Plan = () => {
                 </motion.div>
             </button>
             <span className={`${on ? "text-white":"text-gray-400" } ml-2 flex items-center p-2`}>Yearly</span>
-        </div>
+        </motion.div>
 
-        <div className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
+        <motion.div 
+         initial = {{opacity:0,y :80}}
+      whileInView={{opacity: 1,y :0}}
+      transition={{ duration: 0.8,delay: 0.5 }}
+        className="cards flex lg:flex-row flex-col items-center gap-4 mt-6 ">
             {/* card1 */}
             <div className="rounded-2xl lg:w-[387px] lg:h-[520px] noise-bg overflow-hidden relative w-[90vw] sm:w-[80vw] m-auto  ">
                 <div className="content p-4">
@@ -89,7 +102,7 @@ const Plan = () => {
                     
                 </div>
             </div>
-        </div>
+        </motion.div>
        
 
 
