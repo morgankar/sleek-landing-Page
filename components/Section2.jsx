@@ -1,4 +1,4 @@
-import { motion, useScroll } from "motion/react"
+import { motion } from "motion/react"
 
 
 const Section2 = () => {
