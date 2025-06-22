@@ -8,7 +8,7 @@ const Section2 = () => {
          initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
-        className=" border container lg:max-w-[1200px] lg:max-h[471px] m-auto flex lg:justify-between items-center lg:mb-20 w-[90vw] flex-col-reverse lg:flex-row mb-20 ">
+        className="container lg:max-w-[1200px] lg:max-h[471px] m-auto flex lg:justify-between items-center lg:mb-20 w-[90vw] flex-col-reverse lg:flex-row mb-20 ">
             <div className="textbox mt-14"> 
                 <h2 className='lg:text-5xl font-bold lg:w-100 w-[90vw] text-2xl text-center lg:text-left'>High-Resolution Outputs</h2>
                 <h2 className='lg:w-[500px] mt-3 w-[90vw] text-center lg:text-left text-2xs'>Download any final designs in high-resolution formats suitable for print and digital use. Ensure your work looks professional and polished in any medium.</h2>
