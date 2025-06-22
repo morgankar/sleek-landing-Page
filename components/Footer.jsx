@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="navbar z-[20] flex sm:flex-row flex-col justify-start sm:justify-between items-start sm:items-center max-w-[1260px] ">
             
                 <div className="logo flex items-center mb-10 ">
-                    <img src="./public/logo.avif" alt="Site Logo" className='w-11'/>
+                    <img src="./logo.avif" alt="Site Logo" className='w-11'/>
                     <h1 className='text-2xl font-bold '>HelixAI</h1>
                 </div>
 
