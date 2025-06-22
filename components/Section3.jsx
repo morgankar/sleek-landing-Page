@@ -24,7 +24,8 @@ const Section3 = () => {
         className="lg:grid mt-[180px]  ">
             {/* Row1 */}
             <div className=" flex flex-col lg:flex-row items-center sm:gap-5 ">
-                <div className="rounded-2xl lg:w-[468px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative ">
+                <div className="rounded-2xl lg:w-[468px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg-pointer overflow-hidden relative 
+              hover:bg-[#a37adb] transition-colors duration-300 cursor-pointer">
                   <div className="blck flex justify-between">
                     <h6 className='lg:text-sm text-xl sm:ml-5 lg:mt-5 lg:w-90 w-[60vw] ml-5 mt-5  lg:leading-5 leading-6 font-medium'>Dive into the world of AI where design possibilities are limitless. Let the cutting-edge technology transform your concepts into breathtaking visuals.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
@@ -37,7 +38,7 @@ const Section3 = () => {
                 </div>
                 
                
-                <div className="mt-6 lg:mt-0 rounded-2xl lg:w-[712px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative ">
+                <div className="mt-6 lg:mt-0 rounded-2xl lg:w-[712px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg-pointer overflow-hidden relative hover:bg-[#a37adb] transition-colors duration-300 cursor-pointer">
                   <div className="blck flex justify-between">
                     <h6 className='lg:text-sm text-xl lg:ml-5 lg:mt-5 lg:w-90 w-[60vw] ml-5 mt-5 lg:leading-5 leading-6 font-medium'>Step beyond the ordinary with designs that defy conventions. Our AI conjures up imaginative visuals that push the boundaries of creativity.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
@@ -57,7 +58,7 @@ const Section3 = () => {
               transition={{ duration: 0.8,delay: 0.5 }}
                viewport={{ once: true }}
             className=" flex flex-col lg:flex-row items-center gap-5">
-                <div className="mt-6 rounded-2xl lg:w-[712px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
+                <div className="mt-6 rounded-2xl lg:w-[712px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg-pointer  overflow-hidden relative hover:bg-[#a37adb] transition-colors duration-300 cursor-pointer">
                   <div className="blck flex justify-between">
                     <h6 className='lg:text-sm text-xl lg:ml-5 lg:mt-5 lg:w-90 w-[60vw] ml-5 mt-5 lg:leading-5 leading-6 font-medium'>Experience the perfect blend of form and function. Our AI ensures that every design not only looks stunning but also serves its purpose flawlessly.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
@@ -67,7 +68,7 @@ const Section3 = () => {
                   </div>
                   <h1 className='sm:text-4xl text-2xl absolute bottom-5 left-4 font-bold'>Synergy and Style</h1>
                 </div>
-                <div className="mt-6 rounded-2xl lg:w-[468px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
+                <div className="mt-6 rounded-2xl lg:w-[468px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg-pointer  overflow-hidden relative hover:bg-[#a37adb] transition-colors duration-300 cursor-pointer">
                 <div className="blck flex justify-between">
                     <h6 className='lg:text-sm text-xl lg:ml-5 lg:mt-5 lg:w-90 w-[60vw] ml-5 mt-5 lg:leading-5 leading-6 font-medium'>Embrace the elegance of meticulously crafted designs. Our AI polishes every detail to bring a timeless quality to your creative projects.</h6>
                     <div className="secIcon rounded-[50%] w-[50px] h-[50px] bg-[#8f4ded]  m-5 ">
