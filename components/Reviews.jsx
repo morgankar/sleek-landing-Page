@@ -7,6 +7,7 @@ const Reviews = () => {
      initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
     className='lg:max-w-[1200px] max-w-[90vw] m-auto mt-20 '>
          <h1 className='lg:text-6xl text-5xl font-medium lg:w-[520px] w-[95vw] lg:ml-9 '>Customer <span className='text-[#8b49e9]'>Success</span> Stories</h1>
          <h1 className='lg:w-[650px] mt-5 lg:ml-9  w-[95vw] '>Discover how our platform has helped businesses create outstanding content effortlessly. Hear directly from our users about their of success and satisfaction.</h1>
@@ -17,6 +18,7 @@ const Reviews = () => {
      initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
     className="customerCard mt-16 flex flex-col lg:flex-row gap-7 lg:gap-1 lg:justify-center lg:max-w-[1200px] m-auto "> 
 
       <div className="customerCard1 lg:w-[384px] lg:h-[239px] w-[90vw] h-[40vh] noise-bg rounded-md m-auto p-3">

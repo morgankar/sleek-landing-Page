@@ -42,6 +42,7 @@ const Faq = () => {
          initial = {{opacity:0,y:50}}
       whileInView={{opacity: 1, y:0}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
         className='mt-30 sm:max-w-[1200px] m-auto max-w-[90vw] rounded-3xl  p-4 flex flex-col sm:flex-row   sm:justify-between items-center sm:min-h-[446px] noise-bg-pointer overflow-hidden '>
             <div>
                 <h1 className='sm:text-6xl text-5xl font-medium sm:w-[520px] w-[90vw] sm:ml-9 mt-8 ml-6'>

@@ -7,6 +7,7 @@ const Section1 = () => {
          initial = {{opacity:0}}
       whileInView={{opacity:1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
         className="textblock2">
             <h1 className='heading text-5xl font-bold leading-[70px] relative'>Unleash Your  <span className='text-[#8b49e9]'>Creativity</span></h1>
             <h2 className='lg:max-w-[35vw]  max-w-[80vw] mt-5'>Discover how our AI-Powered Design Assistant transforms your ideas into stunning designs effortlessly. Follow these simple steps to turn your vision into reality.</h2>
@@ -17,6 +18,7 @@ const Section1 = () => {
           initial = {{opacity:0}}
       whileInView={{opacity:1}}
       transition={{ duration: 0.8,delay: 0.3 }}
+       viewport={{ once: true }}
         className="sectionCards flex flex-col gap-7  md:flex-col lg:flex-row lg:mt-10 w-[90vw]">
 
           <div className="secCard card1 lg:min-w-[387px] min-w-[90vw] min-h-[239px] max-w-[387px] max-h-[239px] relative lg:max-w-[80vw] 

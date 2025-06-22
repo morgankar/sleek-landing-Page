@@ -8,6 +8,7 @@ const Section3 = () => {
      initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
     className=" container sm:max-w-[1200px] lg:h-[100vh] m-auto max-w-[90vw]">
         
             <h1 className='lg:text-5xl text-5xl font-medium sm:font-bold leading-[50px] lg:max-w-[32vw] max-w-[120vw] p-4'>Transforming Imagination into <span className='text-[#8b49e9] relative '>Reality</span></h1>
@@ -19,6 +20,7 @@ const Section3 = () => {
         initial = {{opacity:0,y:50}}
       whileInView={{opacity: 1, y:0}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
         className="lg:grid mt-[180px]  ">
             {/* Row1 */}
             <div className=" flex flex-col lg:flex-row items-center sm:gap-5 ">
@@ -53,6 +55,7 @@ const Section3 = () => {
              initial = {{opacity:0,y:80}}
               whileInView={{opacity: 1, y:0}}
               transition={{ duration: 0.8,delay: 0.5 }}
+               viewport={{ once: true }}
             className=" flex flex-col lg:flex-row items-center gap-5">
                 <div className="mt-6 rounded-2xl lg:w-[712px] lg:h-[324px] w-[95vw] h-[50vh] noise-bg overflow-hidden relative">
                   <div className="blck flex justify-between">

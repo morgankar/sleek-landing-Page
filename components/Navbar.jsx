@@ -11,6 +11,7 @@ const Navbar = () => {
       initial = {{opacity: 0}}
       animate={{ opacity: 100}}
       transition={{ duration: 0.7 }}
+       viewport={{ once: true }}
       className="navbar 
       top-8 z-[20] 
       mx-auto flex flex-row justify-between 

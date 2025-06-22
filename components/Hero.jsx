@@ -8,6 +8,7 @@ const Hero = () => {
     initial = {{filter: "blur(10px", y: 80}}
       animate={{ filter: "blur(0px)", y: 0 }}
       transition={{ duration: 0.7 }}
+       viewport={{ once: true }}
     className="box 
      w-[90vw] sm:h-[550px] 
      h-[80vh]
@@ -32,6 +33,7 @@ const Hero = () => {
          initial = {{filter: "blur(10px", y: 80}}
          animate={{ filter: "blur(0px)", y: 0 }}
          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
          className="heading text-5xl leading-[70px] lg:text-6xl font-bold lg:font-extrabold">
 
         Your AI-Powered <span className='text-[#8b49e9]'>Design</span> Assistant
@@ -43,6 +45,7 @@ const Hero = () => {
          initial = {{filter: "blur(10px", y: 100}}
       animate={{ filter: "blur(0px)", y: 0 }}
       transition={{ duration: 0.5 }}
+       viewport={{ once: true }}
         className="cta  text-sm font-bold flex sm:flex-row flex-col m-auto sm:m-0 sm:mt-6 mt-7 ml-0">
           <button className='bg-[#8f4ded] p-4 rounded-[10px]'>Remix Template</button>
           <button className='sm:p-4 rounded-[10px] font-semibold p-4 text-gray-300'>More Templates</button>
@@ -52,6 +55,7 @@ const Hero = () => {
        initial = {{filter: "blur(10px", y: 120}}
       animate={{ filter: "blur(0px)", y: 0 }}
       transition={{ duration: 0.9 }}
+       viewport={{ once: true }}
       className="
       sm:w-[610px]
       sm:mx-160 sm:mt-10

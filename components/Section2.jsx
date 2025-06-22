@@ -8,6 +8,7 @@ const Section2 = () => {
          initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
         className="container lg:max-w-[1200px] lg:max-h[471px] m-auto flex lg:justify-between items-center lg:mb-20 w-[90vw] flex-col-reverse lg:flex-row mb-20 ">
             <div className="textbox mt-14"> 
                 <h2 className='lg:text-5xl font-bold lg:w-100 w-[90vw] text-2xl text-center lg:text-left'>High-Resolution Outputs</h2>
@@ -23,6 +24,7 @@ const Section2 = () => {
         initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
          className="container lg:max-w-[1200px] lg:max-h[471px] m-auto flex lg:justify-between lg:items-center lg:mb-20 w-[90vw] flex-col-reverse lg:flex-row-reverse mb-20">
              <div className="textbox mt-14"> 
                 <h2 className='lg:text-5xl font-bold lg:w-100 w-[90vw] text-2xl text-center lg:text-left'>Real-Time Collaboration</h2>
@@ -38,6 +40,7 @@ const Section2 = () => {
         initial = {{opacity:0}}
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
         className="container lg:max-w-[1200px] lg:max-h[471px] m-auto flex lg:justify-between lg:items-center lg:mb-20 w-[90vw] flex-col-reverse lg:flex-row mb-20 ">
             <div className="textbox mt-14"> 
                 <h2 className='lg:text-5xl font-bold lg:w-100 w-[90vw] text-2xl text-center lg:text-left'>Advanced Scheduling Tools</h2>

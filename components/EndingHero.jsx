@@ -8,6 +8,7 @@ const EndingHero = () => {
    initial = {{opacity:0,y:50}}
       whileInView={{opacity: 1, y:0}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
   className="box mt-20 lg:mt-20 w-[100vw] lg:h-[640px] h-[70vh] max-w-[100vw] lg:max-w-[1200px] m-auto lg:rounded-4xl noise-bg flex relative overflow-hidden mb-20">
       <div className="textBlock w-[90vw] lg:mt-0 lg:ml-4 lg:p-5 lg:pt-35 lg:max-w-[600px]  lg:min-w-[600px] flex flex-col ">
 
@@ -25,6 +26,7 @@ const EndingHero = () => {
        initial = {{opacity:0,y:50}}
       whileInView={{opacity: 1, y:0}}
       transition={{ duration: 0.8,delay: 0.5 }}
+       viewport={{ once: true }}
       className="lg:w-[610px] lg:mx-174 lg:mt-20 absolute  mx-33 w-[600px] mt-65">
         <img src='/img_5.avif' className='w-[350px] lg:w-auto h-auto object-contain' alt="banner"/>
       </motion.div>
