@@ -6,14 +6,14 @@ const Plan = () => {
 
     const [on, setOn] = useState(false)
   return (
-    <div className=" container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[100vh]">
+    <div className=" container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[1024px] mt-50 border mb-40">
         <motion.div 
          initial = {{opacity:0, y:60}}
       whileInView={{opacity: 1, y:0}}
       transition={{ duration: 0.2,delay: 0.5 }}
        viewport={{ once: true }}
-        className=" header mt-30 lg:mt-70 ">
-            <h1 className='lg:text-5xl lg:font-bold font-medium  leading-[50px] lg:max-w-[640px] text-5xl w-[90vw]  relative '>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
+        className=" header mt-30 lg:mt-10 ">
+            <h1 className='lg:text-5xl lg:font-bold font-medium  leading-[50px] lg:max-w-[640px] text-5xl w-[90vw]  '>Affordable Plans for <span className='text-[#8b49e9]'>Every Need</span></h1>
             <h1 className='  lg:max-w-[36vw] w-[90vw] mt-[15px]'>Choose the perfect plan for your design projects, from startups to enterprises. Our pricing tiers are designed to offer flexibility and value, ensuring you get the most out of our AI-powered design assistant.</h1>
         </motion.div>
 

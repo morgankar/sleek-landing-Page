@@ -9,7 +9,7 @@ const Section3 = () => {
       whileInView={{opacity: 1}}
       transition={{ duration: 0.8,delay: 0.5 }}
        viewport={{ once: true }}
-    className=" container sm:max-w-[1200px] lg:h-[100vh] m-auto max-w-[90vw]">
+    className=" container sm:max-w-[1200px] lg:h-[1024px] m-auto max-w-[90vw]">
         
             <h1 className='lg:text-5xl text-5xl font-medium sm:font-bold leading-[50px] lg:max-w-[32vw] max-w-[120vw] p-4'>Transforming Imagination into <span className='text-[#8b49e9] relative '>Reality</span></h1>
             <h2 className='absolute lg:max-w-[36vw] mt-[20px] max-w-[90vw] p-4'>Unlock the full potential of your creativity with our AI-powered design assistant. Explore new dimensions of design, from futuristic visuals to timeless craftsmanship, and witness how AI can turn your wildest ideas into stunning realities.</h2>
