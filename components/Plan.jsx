@@ -6,7 +6,7 @@ const Plan = () => {
 
     const [on, setOn] = useState(false)
   return (
-    <div className=" container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[1024px] mt-50 border mb-40">
+    <div className=" container w-[90vw] lg:max-w-[1200px] m-auto lg:h-[1024px] mt-30 mb-40">
         <motion.div 
          initial = {{opacity:0, y:60}}
       whileInView={{opacity: 1, y:0}}
